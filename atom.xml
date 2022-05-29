@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.ms-win.tech</id>
     <title>Microsoftのblog</title>
-    <updated>2022-05-25T06:44:45.317Z</updated>
+    <updated>2022-05-29T02:53:41.912Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.ms-win.tech"/>
     <link rel="self" href="https://www.ms-win.tech/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://www.ms-win.tech/images/avatar.png</logo>
     <icon>https://www.ms-win.tech/favicon.ico</icon>
     <rights>All rights reserved 2022, Microsoftのblog</rights>
+    <entry>
+        <title type="html"><![CDATA[Microsoftの广告]]></title>
+        <id>https://www.ms-win.tech/post/1145141919810/</id>
+        <link href="https://www.ms-win.tech/post/1145141919810/">
+        </link>
+        <updated>2022-05-29T02:49:15.000Z</updated>
+        <content type="html"><![CDATA[<p>在西伯利亚，科学家研制出了一种每公斤两个比特币可以长期保值的由金和银炼制而成的闪耀着彩虹光芒的有补肾功能的神奇瓜瓜（</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[我对LC这根姬巴的看法2]]></title>
         <id>https://www.ms-win.tech/post/lc-wdnmd2/</id>
