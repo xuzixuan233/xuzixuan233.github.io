@@ -1,249 +1,126 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" >
 
-<head>
-    <meta charset="utf-8" />
-<title>
-    Microsoftのblog
-</title>
-<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
-<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
-<meta http-equiv="x-dns-prefetch-control" content="on">
-<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
-<meta name="author" content="Microsoft 微软">
-<meta name="description" content="">
-<meta name="keywords" content="ms-win,1w2w3p4v222">
-<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
-<link rel="stylesheet" href="https://www.ms-win.tech/styles/main.css" />
-<link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+<title>LC你就是歌姬吧 | Microsoftのblog</title>
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/css/style.min.css" />
-        <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/tocbot.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/script.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/icon.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://www.ms-win.tech/favicon.ico?v=1653813615199">
+<link rel="stylesheet" href="https://www.ms-win.tech/styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="前篇提到了LC的坏事，并且二审没有通过，他奶奶的LC让我们和解，自己做错事，和我们提条件才和解
+
+没啥可说的，我无语了，这b一直转移话题，就是不道歉
+
+在前面Windows 2000已经把LC带到苏微法庭了，苏微法庭确实解决了一些问题，可L..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://www.ms-win.tech">
+        <img src="https://www.ms-win.tech/images/avatar.png?v=1653813615199" class="site-logo">
+        <h1 class="site-title">Microsoftのblog</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
         
-            <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/Card/prism.min.js"></script>
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/css/Card/prism.min.css" />
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css">
-            <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js"></script>
+          <a href="/index" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+        
+          <a href="https://www.ms-win.tech/posts" class="site-nav">
+            文章
+          </a>
+        
+      
+        
+          <a href="https://www.ms-win.tech/friends" class="site-nav">
+            友情链接
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+          <a class="social-link" href="github.com/xuzixuan233" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      MicrosoftのBlog
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://www.ms-win.tech/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">LC你就是歌姬吧</h2>
+            <div class="post-date">2022-05-06</div>
             
-                <!--点击特效-->
-                <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/love.min.js"></script>
-                
-                    <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic@latest/assets/media/script/APlayer.min.js"></script>
-                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
-                    
-                        <!--CDN样式-->
-                        <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/hit-kounter-lc-0.3.0.js"></script>
-                        <script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
-                        
-                            <script>
-                                (function() {
-                                    var bp = document.createElement('script');
-                                    var curProtocol = window.location.protocol.split(':')[0];
-                                    if (curProtocol === 'https') {
-                                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-                                    } else {
-                                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-                                    }
-                                    var s = document.getElementsByTagName("script")[0];
-                                    s.parentNode.insertBefore(bp, s);
-                                })();
-                            </script>
-                            
-</head>
-
-<body>
-    <div class="wrapper">
-        <header>
-    <nav class="navbar">
-        <div class="container">
-            <div class="navbar-header header-logo">
-                <a href="https://www.ms-win.tech">
-                    Microsoftのblog
-                </a>
-            </div>
-            <div id="tp-weather-widget"></div>
-            <div class="menu navbar-right">
-                
-                    <a class="menu-item" href="/index">
-                        首页
-                    </a>
-                    
-                    <a class="menu-item" href="/archives">
-                        归档
-                    </a>
-                    
-                    <a class="menu-item" href="/tags">
-                        标签
-                    </a>
-                    
-                    <a class="menu-item" href="/post/about">
-                        关于
-                    </a>
-                    
-                    <a class="menu-item" href="https://www.ms-win.tech/posts">
-                        文章
-                    </a>
-                    
-                    <a class="menu-item" href="https://www.ms-win.tech/friends">
-                        友情链接
-                    </a>
-                    
-                        <input id="switch_default" type="checkbox" class="switch_default">
-                        <label for="switch_default" class="toggleBtn"></label>
-            </div>
-            <form id="gridea-search-form" data-update="1653813391544" action="/search/index.html">
-                <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
-            </form>
-        </div>
-    </nav>
-
-    
-        <nav class="navbar-mobile" id="nav-mobile">
-            <div class="container">
-                <div class="navbar-header">
-                    <div>
-                        <a href="https://www.ms-win.tech">
-                            Microsoftのblog
-                        </a>
-                        <!--en-->
-                        <a id="mobile-toggle-theme-en" class="a en">&nbsp;Dark</a>
-                        <!--zh-->
-                        <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
-                    </div>
-                    <form id="gridea-search-form" data-update="1653813391544" action="/search/index.html">
-                        <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
-                    </form>
-                    <!--en-->
-                    <div class="menu-toggle" id="menu-toggle-en" onclick="mobileBtn()">&#9776; Menu</div>
-                    <!--zh-->
-                    <div class="menu-toggle" id="menu-toggle-zh" onclick="mobileBtn()">&#9776; &#x83DC;&#x5355;</div>
-
-                </div>
-                <div class="menu" id="mobile-menu">
-                    
-                        <a class="menu-item" href="/index">
-                            首页
-                        </a>
-                        
-                        <a class="menu-item" href="/archives">
-                            归档
-                        </a>
-                        
-                        <a class="menu-item" href="/tags">
-                            标签
-                        </a>
-                        
-                        <a class="menu-item" href="/post/about">
-                            关于
-                        </a>
-                        
-                        <a class="menu-item" href="https://www.ms-win.tech/posts">
-                            文章
-                        </a>
-                        
-                        <a class="menu-item" href="https://www.ms-win.tech/friends">
-                            友情链接
-                        </a>
-                        
-                </div>
-            </div>
-        </nav>
-</header>
-<script>
-    var mobileBtn = function f() {
-        var toggleMenu = document.getElementById("menu-toggle-en");
-        var toggleMenu_zh = document.getElementById("menu-toggle-zh");
-
-        var mobileMenu = document.getElementById("mobile-menu");
-        if (toggleMenu.display != "none") {
-            if (toggleMenu.classList.contains("active")) {
-                toggleMenu.classList.remove("active")
-                mobileMenu.classList.remove("active")
-            } else {
-                toggleMenu.classList.add("active")
-                mobileMenu.classList.add("active")
-            }
-        } else if (toggleMenu_zh.display != "none") {
-            if (toggleMenu_zh.classList.contains("active")) {
-                toggleMenu_zh.classList.remove("active")
-                mobileMenu.classList.remove("active")
-            } else {
-                toggleMenu_zh.classList.add("active")
-                mobileMenu.classList.add("active")
-            }
-        }
-
-    }
-</script>
-
-
-
-    <script>
-        (function(a, h, g, f, e, d, c, b) {
-            b = function() {
-                d = h.createElement(g);
-                c = h.getElementsByTagName(g)[0];
-                d.src = e;
-                d.charset = "utf-8";
-                d.async = 1;
-                c.parentNode.insertBefore(d, c)
-            };
-            a["SeniverseWeatherWidgetObject"] = f;
-            a[f] || (a[f] = function() {
-                (a[f].q = a[f].q || []).push(arguments)
-            });
-            a[f].l = +new Date();
-            if (a.attachEvent) {
-                a.attachEvent("onload", b)
-            } else {
-                a.addEventListener("load", b, false)
-            }
-        }(window, document, "script", "SeniverseWeatherWidget", "//cdn.sencdn.com/widget2/static/js/bundle.js?t=" + parseInt((new Date().getTime() / 100000000).toString(), 10)));
-        window.SeniverseWeatherWidget('show', {
-            flavor: "slim",
-            location: "WWEFQFPJZ7T8",
-            geolocation: true,
-            language: "auto",
-            unit: "c",
-            theme: "auto",
-            token: "61bcc333-3305-4728-9465-6785274bb0a3",
-            hover: "enabled",
-            container: "tp-weather-widget"
-        })
-    </script>
-    
-            <div class="main">
-                <div class="container">
-                    <article class="post-wrap">
-                        <header class="post-header">
-                            <h1 class="post-title">
-                                LC你就是歌姬吧
-                            </h1>
-                            
-                                    <!--zh-->
-                                    <div class="post-meta zh">
-                                        &#x4F5C;&#x8005;:
-                                        <a itemprop="author" rel="author" href="/">
-                                            Microsoftのblog
-                                        </a>
-                                        <span class="post-time">&#x65E5;&#x671F;: <a href="#">2022-05-06</a></span>
-                                        <span class="post-readtime">&#x9605;&#x8BFB;&#x65F6;&#x95F4;:<a
-                                    href="#">0.5
-                                    &#x5206;&#x949F;</a></span>
-                                        <span class="post-words">&#x5B57;&#x6570;:<a href="#">145</a></span>
-                                        
-                                                阅读量:
-                                                <span data-hk-page="current"> - </span>
-                                                
-                                    </div>
-                                    
-                        </header>
-                        
-                        <div class="post-content">
-                            <p>前篇提到了LC的坏事，并且二审没有通过，他奶奶的LC让我们和解，自己做错事，和我们提条件才和解<br>
+            <div class="post-content" v-pre>
+              <p>前篇提到了LC的坏事，并且二审没有通过，他奶奶的LC让我们和解，自己做错事，和我们提条件才和解<br>
 <img src="https://www.ms-win.tech/post-images/1651804133614.png" alt="" loading="lazy"><br>
 没啥可说的，我无语了，这b一直转移话题，就是不道歉<br>
 <img src="https://www.ms-win.tech/post-images/1651804219681.jpg" alt="" loading="lazy"><br>
@@ -252,213 +129,74 @@
 <img src="https://www.ms-win.tech/post-images/1651804459119.jpg" alt="" loading="lazy"><br>
 你狗jb都不是，我们就要个道歉，你一直转移话题，像个没事人一样，真的糊了，草！</p>
 
-                        </div>
-                        
-                                
-                                    
-                                            <!--zh-->
-                                            <section class="post-copyright zh">
-                                                <p class="copyright-item ">
-                                                    <span>&#x4F5C;&#x8005;:</span>
-                                                    <span>Microsoftのblog</span>
-                                                </p>
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://www.ms-win.tech/post/lrvads-catepon-wdnmd/">
+                  <h3 class="post-title">
+                    我对LC这件事的看法
+                  </h3>
+                </a>
+              </div>
+            
 
-                                                <p class="copyright-item">
-                                                    <span>&#x6C38;&#x4E45;&#x94FE;&#x63A5;:</span>
-                                                    <span><a href="https://www.ms-win.tech/post/lrvads-catepon-wdnmd-2/">https://www.ms-win.tech/post/lrvads-catepon-wdnmd-2/</a></span>
-                                                </p>
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
 
-                                                <p class="copyright-item">
-                                                    <span>&#x534F;&#x8BAE;:</span>
-                                                    <span>MIT License</span>
-                                                </p>
-                                            </section>
-                                            
-                                                
-                                                    
-                                                                    <!--Share-->
-                                                                    <span style="margin-right:15px">
-                        <i class="post-share"></i>
-                        <span>&#x5206;&#x4EAB;:</span>
-                                                                    <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.ms-win.tech/post/lrvads-catepon-wdnmd-2/"><i class="fa fa-qrcode"></i></a>
-                                                                    <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://www.ms-win.tech/post/lrvads-catepon-wdnmd-2/&sharesource=qzone&title=LC你就是歌姬吧&pics=https://www.ms-win.tech/images/avatar.png?v=1653813391544&summary="><i class="fa fa-qq"></i></a>
-                                                                    <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://www.ms-win.tech/post/lrvads-catepon-wdnmd-2/&sharesource=weibo&title=LC你就是歌姬吧 + " - " + &pic="https://www.ms-win.tech/images/avatar.png?v=1653813391544 "><i class="fa fa-weibo "></i></a>
+              
+            
 
-                                                                    </span>
-                                                                    
-                                                                        <div class="reward ">
-                                                                            <div class="reward-button ">&yen;
-                                                                                <span class="reward-code "> 
-                        <span class="alipay-code "> <img class="alipay-img " alt = "support " src="https://blog.itjoker.cn/alipay.jpg"><b>支付宝</b> </span>
-                                                                                <span class="wechat-code "> <img alt ="support " class="wechat-img " src="https://blog.itjoker.cn/wechat.jpg"><b>微信</b> </span> </span>
-                                                                            </div>
-                                                                        </div>
-                                                                        
-                                                                            <!--zh-->
-                                                                            <section class="post-tags zh ">
-                                                                                <div>
-                                                                                    <span>&#x6807;&#x7B7E;:</span>
-                                                                                    <span class="tag ">
-                        
-                                </span>
-                                                                                </div>
-                                                                                <div>
-                                                                                    <a href="javascript:window.history.back();">
-                        &#x8FD4;&#x56DE;</a>
-                                                                                    <span>&dot;</span>
-                                                                                    <a href="#">&#x4E3B;&#x9875;</a>
-                                                                                </div>
-                                                                            </section>
+          </div>
 
-                                                                            
-                                                                                <!---->
-                                                                                <section class="post-nav">
-                                                                                    
-                                                                                        <a class="prev" rel="prev" href="https://www.ms-win.tech/post/microfish-wdnmd/">
-                                                                                            狗比东西-MicroFish
-                                                                                        </a>
-                                                                                        
-                                                                                            
-                                                                                                <a class="next" rel="next" href="https://www.ms-win.tech/post/lrvads-catepon-wdnmd/">
-                                                                                                    我对LC这件事的看法
-                                                                                                </a>
-                                                                                                
-                                                                                </section>
-                    </article>
-                </div>
-                
-                    
-                        <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+        </div>
+      </div>
+    </div>
 
-<div id="gitalk-container" style="width: 100%;max-width: 780px;margin: auto;"></div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
 
-<script>
-    var gitalk = new Gitalk({
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
         clientID: '',
         clientSecret: '',
         repo: '',
         owner: '',
         admin: [''],
-        id: (location.pathname).substring(0, 49), // Ensure uniqueness and length less than 50
-        distractionFreeMode: false // Facebook-like distraction free mode
-    })
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
 
-    gitalk.render('gitalk-container')
-</script>
-                            
-                                        
-                                            
-            </div>
-    </div>
-    </div>
-    </div>
-    
-    <div id="player"></div>
-    
-        <footer id="footer" class="footer">
-            <div class="copyright">
-                
-                    <div class="Like">
-                        <div class="tip" data-tooltip="Do you like it?">
-                            <a href="https://github.com/ITJoker233/Gridea-theme-Chic" target="_blank" title=""><svg class="icon"
-                        aria-hidden="true">
-                        <use xlink:href="#like"></use>
-                    </svg><b class="like_text" id="star"></b></a>
-                        </div>
-                    </div>
-                    
-                        Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-                            
-                                <b id="hitokoto"></b><br>
-                                
-                                    <div style="width:300px;margin:0 auto; padding:0px 0;">
-                                        <a target="_blank" href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=21010202000116" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
-                                            <img src="https://yanxuan.nosdn.127.net/b610ced5ac6a0e25cf6edf5606c69775.png" style="float:left;">
-                                            <p id="icpinfo" style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;"></p>
-                                        </a>
-                                    </div>
-                                    
-                                        <svg viewBox="0 0 1024 1024" style="margin-left: 5px;margin-right: 5px;" version="1.0" width="8" height="8" class="my-face">
-            <path
-                d="M863.597631 513.574282l-271.33965-140.213484L729.783667 81.926656c3.583731-7.87141 7.167462-15.742819 7.167462-25.214109C736.887134 25.226908 708.345275 0.012799 672.635953 0.012799a63.611229 63.611229 0 0 0-39.293053 12.607055c-1.791866 1.59988-3.519736 3.19976-5.311602 3.19976L147.87531 418.925381a55.547834 55.547834 0 0 0-19.646527 47.356448c1.791866 17.278704 14.27093 33.021523 32.125591 42.492813l271.33965 141.749369L292.504463 945.221908c-12.479064 25.214109-1.791866 53.563983 23.166262 69.306802 10.751194 6.335525 23.230258 9.47129 35.709322 9.47129 16.062795 0 32.125591-4.735645 44.604655-15.742819l480.091993-403.297753a55.547834 55.547834 0 0 0 19.646526-47.228458 61.243407 61.243407 0 0 0-32.12559-44.156688z"
-                fill="#93b5cf"></path>
-        </svg>
-                                        Microsoftのblog &copy;Copyright
-                                            <script>
-                                                var date = new Date();
-                                                document.write("" + date.getFullYear());
-                                            </script>
-                                            | Powered by
-                                            <a href="Microsoft.com" target="_blank">
-                                                Microsoft
-                                            </a>
-            </div>
-            <div id="update" style="display:none;">
-                on
-            </div>
-            
-                <div id="version" style="display:none;">
-                    1.7.6
-                </div>
-                
-                    <script>
-                        var port = '';
-                        
-                        document.write('<div id="home_path" style="display:none;">' + document.location.protocol + '//' + window.document.location.hostname + port + '</div>')
-                    </script>
-        </footer>
-        
-            <script src='https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js'></script>
-            
-                <script>
-                    
+      gitalk.render('gitalk-container')
 
-                    function LoadPlayer() {
-                        var musicList = [];
-                        
-                        musicList.push({
-                            name: '',
-                            url: '',
-                            artist: '',
-                            cover: '',
-                        });
-                        
-                        console.log(" MusicList: " + musicList);
-                        
-                        const ap = new APlayer({
-                            container: document.getElementById('player'),
-                            fixed: true,
-                            audio: musicList
-                        });
-                        
-                    }
-                    LoadPlayer();
-                    
-                    
-                    loadlive2d();
-                    
-                    
-                    hitokoto();
-                    
-                    var icp = document.getElementById('icpinfo');
-                    icp.innerText = "辽公网安备 21010202000116号";
-                    
-                    getStar();
-                    hljs.initHighlighting();
-                    console.clear();
-                    
-                    CheckVersion();
-                    
-                    var newDate = new Date();
-                    newDate.setTime(1653813391544);
-                    console.log(" Blog Update Time: " + newDate.toLocaleDateString());
-                    console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
-                </script>
-        </div>
-</body>
-<script>
-    scroll();
-</script>
+    </script>
+  
 
+  
+
+
+
+
+  </body>
 </html>
